@@ -1,0 +1,518 @@
+body{
+    background-color:#939597;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  #progress-bar {
+    --scrollAmount: 0%;
+    border-radius: 15em;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: var(--scrollAmount);
+  
+    /*  background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
+    width: 100%; */
+    
+    height: 25px;
+    position: fixed;
+    left: 0em;
+    z-index: 99;
+  }
+  #myBtn {
+     /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 150px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+    
+    
+  }
+.button-image img{
+    height: 100px;
+    width: auto;
+
+  }
+  
+#myBtn:hover {
+    background-color: rgba(0, 0, 0, 0.432); /* Add a dark-grey background on hover */
+  }
+
+  .logos-images{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 98
+    
+    }
+.logos-images li{
+    display: inline-block;
+    word-spacing: 5em;
+    list-style-type: none;
+    }    
+.logos-images img{
+    width: 100px;
+}     
+header{
+    position: relative;
+}
+
+.menu{
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+    border-spacing: 0px 15px;
+    position: relative;
+ 
+
+    }
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    border-spacing: 0px 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;    }
+ul li a:hover{
+	color:rgb(255, 208, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+    }
+.home-png{
+        position: relative;
+        height: 100px;
+        top: 23px;
+    }       
+/******************************
+
+
+****************************
+
+
+******************************/
+    .home-page{
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 10px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative; 
+    width: 1920px;
+    height: 1080px;
+    } 
+.persons-image{
+    opacity: 0.5;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    }    
+hr{
+    margin:150px;
+    background-color: azure;
+    color: azure;
+    border-width: 5px;
+    border-style: dotted;
+    padding: 0px;
+    }    
+.description{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 1000px;
+    height: 300px;
+    }
+.hello{
+    background-image: url(../images/background.jpeg);
+    color:transparent;
+    text-align: center;
+    padding-bottom:0px;
+    font-weight: bold;
+    font-size: 80px;
+    background-clip: text;
+    -webkit-background-clip:text;
+    }
+
+ 
+
+/******************************
+
+
+****************************
+
+
+******************************/
+.about-me-page{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 10px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.writer-image{
+    opacity: 0.5;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+}
+  .header-who,.header-do{
+    color: white;
+    border-style:ridge;
+    border-width: 10px;
+    padding: 15px;
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    font-family: 'Neue Montreal',sans-serif;
+  }
+  .header-who{
+    position: absolute;
+    left: 50px; 
+    background-color: rgba(0, 0, 0, 0.432);
+  }
+  .header-do{
+    position: absolute;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.432);
+  }
+  .paragraph-1{
+    border-style: dotted;
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 15px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    word-spacing: 0.5em;
+  }
+  .paragraphs{
+    color: aliceblue;
+    font-size: 40px; 
+    border-style: dotted;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 10%;
+  }
+  #paragraph-2{
+    position: absolute;
+    right: 90px;
+    top: 125px;
+    width: 600px;
+    padding: 15px;
+    word-spacing: 0.5em;
+  }
+/******************************
+
+
+****************************
+
+
+******************************/
+ .interests-page{
+    border-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: antiquewhite;
+    background-size: cover;
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 15px;
+    position: relative; 
+    width: 1920px;
+    height: 1200px;
+    margin-top: 50px;
+    margin-left:auto ;
+    margin-right: auto;
+ }
+ .interests-page h1{
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.366);
+    border-radius: 15px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    left: 700px;
+    padding: 5px;
+    position: absolute;
+ }
+ .hobbies{
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1200px;
+    
+ }
+ .interests{
+    position: relative;
+    top: 200px;
+    left: 1000px;
+ }
+ .interests img{
+    border-style: solid;
+    border-radius: 15px;
+    width: 500px;
+    
+ }
+ #skiing:hover{
+    width: 750px;
+    position: absolute;
+ }
+.interests img:hover{
+    width: 1000px;
+ }
+.on-left-images{
+z-index: 96;
+}
+.skiing{
+    border-style: solid;
+    border-radius: 15px;
+    width: 500px;
+    top: 300px;
+    position:absolute;
+    left: 450px;
+    z-index: 96;
+}
+/******************************
+
+
+****************************
+
+
+******************************/
+
+.skills-pages{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 10px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.skills-background-image{
+    opacity: 0.5;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    }    
+.skills-header{
+    background-image: url(../images/background.jpeg);
+    color:transparent;
+    left: 25%;
+    font-weight: bold;
+    font-size: 200px;
+    letter-spacing: 0.5em;
+    background-clip: text;
+    -webkit-background-clip:text;
+    position: absolute;
+    top: 0px;
+    }    
+.skills-images{
+position: relative;
+text-align: center;
+top:350px;
+}    
+
+.skills-images img{
+    margin:50px;
+    border-style: solid;
+    border-radius: 15px;
+}
+/******************************
+
+
+****************************
+
+
+******************************/
+.contact-us-page{
+    border-radius: 15px;
+    border-width: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1420px;
+    height: 980px;
+}
+.form{
+    text-align: center;
+    border-style:inset;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 221, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+   
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    border-width: 20px;
+    border-bottom-width: 150px;
+    display: inline-block;
+    
+}
+
+.submit-button{
+    position: absolute;
+    bottom:22%;
+    left: 40%;
+}
+.button{
+    font-size: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15em;
+    border-color: black;
+    background-color: white;
+    border-width: 15px;
+    color: red;
+}
+.button:hover{
+    background-color: rgb(255, 221, 0);
+}
+
+textarea{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #3CBC8D;
+    border-color:black;
+    border-width: 5px;
+}
+label,input{
+    font-size: 50px;
+
+    
+}
+input[type=text] {
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-color:black;
+    border-radius: 15em;
+    font-size: 16px;
+    background-color: #3CBC8D;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+select{
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2em;
+    
+}
+
+
+/*h1.second-header{
+    text-align: center ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px white solid;
+    border-spacing: 12em;
+    /* padding: 0em; öge ile içindekinin arasındaki boşluk
+    margin : 0em; öge ile dışındakinin arasındaki boşluk 
+    border-width: 0px;  kalınlık
+} */
+  
+    
+
+
+
+
+    /*.facebook{
+    
+        position: relative;
+        top: 75px;  
+        float: right;   
+    }
+    .twitter{
+        position:absolute ;
+        top: 100px;
+        right: 340px;
+        
+    }
+    .linkedin{
+        position:absolute ;
+        top: 125px;
+        right: 340px;
+        
+    }
+
+
+    
+
+
+ /* .categories-texts {
+
+    
+    color: blueviolet;
+    float: right;
+    background-image: ;
+	background-color: rgb(255, 255, 255);
+    border:5px rgb(255, 255, 255) solid;
+	padding: 10px ;
+	border-radius: 15px ;
+    text-decoration: none;
+    line-height: normal;
+    border-spacing: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+/* Notlarrrr 
+
+position:absolute; olduğu konum yokmuş gibi ayarlar.
+position:relative; atasının içinde hareket eder.

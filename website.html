@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">   
+    <title>Portfolio</title>
+    <script src="js/myscripts.js"></script>
+</head>
+<body >
+    <div class="progress-bar-size">
+    <div id="progress-bar"></div>
+    </div>
+    
+    
+      <div class="button-image">
+      <button onclick="topFunction()"id="myBtn"class="myBtn" title="Go to top"><img src="images/top.png" alt=""></button>
+    </div>
+    <div >
+        <ul class="logos-images">
+             <li> <a href="https://www.facebook.com"> <img  src="images/github.png" alt="My Sample Image"  ></a></li>
+             <li> <a href="www.facebook.com"> <img  src="images/linkedin.png" alt="My Sample Image" ></a></li>
+             <li> <a href="www.facebook.com"> <img  src="images/twitter.png" alt="My Sample Image" ></a></li>
+         </ul>
+     </div>
+    <header>
+            <ul class="menu">
+                <li ><a href="website.html"><img class="home-png" src="images/home.png" alt=""></a></li>
+                <li ><a href="#about-me-page">About</a></li>
+                <li ><a href="#interests-page">Interests</a></li>
+                <li ><a href="#contact-us-page">Contact Us</a></li>
+            </ul>
+    </header>   
+        <section>
+        <div class="home-page">
+            <img class="persons-image" src="images/persons.jpeg" alt="image">
+        <div class="all">
+            <div class="description">
+                <h1 class="hello">Hello There , I am Abdullah . <h1>
+                <h1 class="hello">Welcome to my Portfolio.</h1>
+            </div>
+        </div>
+        </div>
+        </section>
+        <hr>
+         
+        
+        <div id="about-me-page" class="about-me-page">
+            <img class="writer-image" src="images/writer.jpeg" alt="image">
+            <br>
+            <h1 class="header-who">Who is Abdullah ?</h1>
+            <h1 class="header-do">Do you want to know Me more?</h1>
+            <p class="paragraph-1">Hello, I'm Abdullah. I am 21 years old, I am a 2nd year Computer 
+                Engineering student at Marmara University. I am currently on summer vacation and doing
+                an internship at a company and this is my first project; making a website with my portfolio.
+            </p>
+            <p id="paragraph-2" class="paragraphs">I studied middle and high school in a school called Derya College.
+                After high school, I won computer engineering at Marmara University with my university exam grade and I am 
+                currently a 2nd year student at Marmara University Computer Engineering Faculty.
+            </p>
+            
+            <br>
+        </div>
+        <hr>
+        
+        
+        <div id="interests-page" class="interests-page">
+            <img class="hobbies" src="images/hobbies.jpeg" alt="image">
+            <h1>What is my Interests ?</h1>
+            <div><a href="">
+                <img class="skiing" id="skiing" src="images/skiing.jpeg" alt="image"></a></div>
+            <div class="interests">
+                <a href="images/biking.jpeg">
+                <img class="on-left-images"id="biking" src="images/biking.jpeg" alt="image"></a>
+                <br>
+                <a href="">
+                <img class="on-left-images" id="coding" src="images/coding.jpeg" alt="image"></a>
+                <br>
+                <a href="">
+                <img class="on-left-images" id="pc" src="images/pc.jpeg" alt="image"></a>
+                
+            </div>
+        </div>
+        <hr>
+        
+        <div class="skills-pages"> 
+            <div>
+            <img class="skills-background-image" src="images/skills.jpeg" alt="image">
+            <h1 class="skills-header">Skills</h1>
+            
+            <div></div>
+            <div>
+                <div class="skills-images">
+                <img  src="images/java.gif" alt="image">
+                <img  src="images/html.gif" alt="image">
+                <img  src="images/javascript.gif" alt="image"> 
+                </div>
+             </div>
+            </div>
+        
+        </div>
+        <hr>
+
+
+        <div id="contact-us-page" class="contact-us-page">
+            <form action="process.php" method="POST">	
+                <div class="form">
+                    <div class="text">  <!--How to open input box-->
+                        <label>First Name:</label>
+                        <input type="text" name="firstName" placeholder="Your Name">
+                    </div>	
+                    <br>
+                    <div class="text">
+                        <label>Last Name:</label>
+                        <input type="text" name="lastName" placeholder="Your Last Name">
+                    </div>
+                    <br>
+                    <div class="text">
+                        <label>Email:</label>
+                        <input type="text" name="email" placeholder="username@gmail.com">
+                    </div>
+                    <br>
+                    <div class="text">
+                        <label>Message:</label>
+                        <textarea name="message" ></textarea>	
+                    </div>
+                    <br>
+                    <div class="text">
+                        <label>Gender:</label>	
+                        <select class="select"name="gender" size="1">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                    <br>
+                    <div class="submit-button">
+                        <button class="button"> Submit</button> 
+                    </div>
+                </form>
+
+        </div>
+    <footer>
+        &copy; Created by Abdullah Işık in 2023 July 
+    </footer>
+
+</body>
+
+
+
+</html>
+
+    <!--
+    <style> 
+    .gfg {
+            margin: 10%;
+            position: relative;
+        }
+  
+        .first-txt {
+            position: absolute;
+            top: 17px;
+            left: 20px;
+        }
+  
+        .second-txt {
+            position: absolute;
+            top: 17px;
+            left: 500px;
+        }
+    </style>
+       
+
+
+-->
